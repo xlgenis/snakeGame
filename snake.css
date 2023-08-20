@@ -22,6 +22,7 @@ body {
     justify-content: center;
     border-radius: 5px;
     background: #293447;
+    
 }
 
 .game-details{
@@ -53,13 +54,13 @@ body {
 }
 
 .controls {
-    padding: 25px 0;
+    width: 50%;
+    padding: 25px 0 25px 0;
+    margin: 0;
     text-align: center;
     font-size: 1.3rem;
     color: #b8c6dc;
-    width: calc(100% / 4);
     cursor: pointer;
-    border-right: 1px solid #171b26;
 }
 
 @media screen and (max-width: 800px){
@@ -75,8 +76,10 @@ body {
         display: flex;
     }
     .controls i {
-        padding: 15px 0;
         font-size: 1rem;
+        border:solid 1px #171b26;
+        padding: 20%;
+        margin: 0;
     }
 
 }
